@@ -1,1 +1,1 @@
-# blog-app
+# Server side for the blog application
