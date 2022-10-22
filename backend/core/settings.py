@@ -99,6 +99,8 @@ DATABASES = {
     }
 }
 
+# Custom User model overriding exsiting one
+AUTH_USER_MODEL = "users.User"
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -157,5 +159,5 @@ REST_KNOX = {
     "USER_SERIALIZER": "knox.serializers.UserSerializer",
     "TOKEN_LIMIT_PER_USER": None,
     "AUTO_REFRESH": False,
-    "EXPIRY_DATETIME_FORMAT": api_settings.DATETME_FORMAT,
+    # "EXPIRY_DATETIME_FORMAT": api_settings.DATETME_FORMAT,
 }

@@ -15,3 +15,6 @@ pytest-django==4.5.2
 
 # PostgreSQL
 psycopg2==2.9.4
+
+# Documentation
+mkdocs==1.4.1
